@@ -1,5 +1,7 @@
 package basic_lang;
 
+import java.util.Arrays;
+
 //数组也是在堆区存放的对象，栈区只是操作对象的索引。当栈区销毁后，索引页销毁，这种就是将要清除的对象。
 public class AArray {
 
@@ -14,5 +16,14 @@ public class AArray {
 
         sa[2]=11;
         int c=a.length+1; // arraylength指令取栈顶的数组索引指向的数组对象的length字段。
+
+        int[][] c1={{1,2,3},{4,5}}; // 多维数组本质上就是引用的数组，并不是空间上的连续分配
+
+        // Arrays工具类
+        Arrays.copyOf(a,3);
+        Arrays.copyOfRange(a,0,2);
+        Arrays.fill(a,5);
+        Arrays.asList(1,2,3,4,5);
+        Arrays.binarySearch(a,2);
     }
 }

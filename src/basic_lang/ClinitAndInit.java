@@ -2,7 +2,7 @@ package basic_lang;
 
 public class ClinitAndInit {
 
-    int s;
+    static int s;
 
     // 静态变量和代码块会组合成 clinit 方法，整个类只有一个clinit方法
     static int x=0;
