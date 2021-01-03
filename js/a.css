@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+#username {
+    background-color: blue;
+}
+
+.sex {
+    background-color: brown;
+    margin: 50px;
+}
