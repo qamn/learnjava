@@ -3,7 +3,6 @@ function jsfunc() {
     // control(3);
     // aArray();
     // aString();
-    // console.log("tImport:"+tImport);
 }
 
 function datatype() {
